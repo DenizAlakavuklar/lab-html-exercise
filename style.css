@@ -39,50 +39,103 @@ nav a {
   height: 40px;
 }
 
-#searchbar{
+#searchbar {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-form.searchbar{
+form.searchbar {
   display: flex;
   align-items: center;
   background-color: #dad6d6;
   padding: 6px;
   width: 400px;
-  height:40px;
+  height: 40px;
 }
 
 form img {
   height: 20px;
 }
 
-form input{
+form input {
   width: 375px;
   margin-left: 8px;
   background: none;
   border: none;
 }
 
-form input:focus{
-  outline:none;
+form input:focus {
+  outline: none;
 }
 
-.searchbutton{
+.searchbutton {
   background-color: #f4171f;
   color: white;
   padding: 20px;
 }
 
-div > a{
+div>a {
   text-decoration: none;
   color: black;
 }
 
-.joinbutton{
+.joinbutton {
   border: 1px solid grey;
   padding: 5px 10px;
   margin: 20px;
-  color:black;
- }
+  color: black;
+}
+
+#firstHeading {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  height: 600px;
+  background-color:azure;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+  font-weight: bold;
+}
+
+#text {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  word-wrap: break-word;
+  font-size: 20px;
+  width: 560px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.buttonSeePlans{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  background-color: #FB3B49;
+  padding: 16px 32px;  
+  }
+  
+  .buttonJoinFree{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:40px;
+    background-color: white;
+    padding: 16px 32px;
+  }
+  
+  .planAndjoin{
+    display:flex;
+    justify-content: center;
+    margin-top: 70px; 
+  }
+  
