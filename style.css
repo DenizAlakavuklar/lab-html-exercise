@@ -34,29 +34,55 @@ nav a {
 }
 
 .logo {
-  margin: 5px;
+  margin: 10px;
   padding: 5px;
+  height: 40px;
+}
+
+#searchbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form.searchbar{
+  display: flex;
+  align-items: center;
+  background-color: #dad6d6;
+  padding: 6px;
+  width: 400px;
+  height:40px;
+}
+
+form img {
   height: 20px;
 }
 
-.searchicon {
-  margin: 5px;
-  padding: 5px;
-  height: 30px;
-  background-color: rgb(188, 188, 188)
+form input{
+  width: 375px;
+  margin-left: 8px;
+  background: none;
+  border: none;
 }
 
-form {
-  margin: 5px;
-  padding: 5px;
-  width: 300px;
-  background-color: rgb(188, 188, 188)
+form input:focus{
+  outline:none;
 }
 
-button {
-  background-color: firebrick;
-  height: 35px;
+.searchbutton{
+  background-color: #f4171f;
   color: white;
-  font-size: 12px;
-  border: none
+  padding: 20px;
 }
+
+div > a{
+  text-decoration: none;
+  color: black;
+}
+
+.joinbutton{
+  border: 1px solid grey;
+  padding: 5px 10px;
+  margin: 20px;
+  color:black;
+ }
